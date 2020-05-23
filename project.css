@@ -10,9 +10,9 @@
   background-size: cover;
 }
 @media (min-width: 768px) {
-	.navbar{
-		border-radius: 0px;
-	}
+  .navbar{
+    border-radius: 0px;
+}
 }
 .navbar .navbar-nav>li>a:hover {
 	background-color: #D5D5D5;
@@ -37,7 +37,7 @@
 
 #Part{
   color: #fff;
-  background-image: url("images/backgroundd.jpg");
+  background-image: url("backgroundd.jpg");
   zoom: 90%;
   background-size: cover;
   margin: auto;
