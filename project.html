@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- meta properties -->
+    <meta charset="utf-8">
+    <meta name="description" content="A responsive website created with bootstrap 4, Check it out and see how bootstrap 4 works!">
+    <meta name="keywords" content="How bootstrap works, Responsive website design">
+    <meta name="author" content="Adewale Perfect">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" shrink-to-fit="no">
+    <meta name="revised" content="13/05/2020">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <!-- bootstrap script -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    <!-- External Css -->
+    <link rel="stylesheet" href="project.css">
+
+    <!-- External Javascript script -->
+    <script src="project.js" charset="utf-8"></script>
+
+    <!-- Tooltips script-->
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+
+    <!-- font awesome script -->
+    <script src="https://kit.fontawesome.com/4ef3348d50.js" crossorigin="anonymous"></script>
+
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+
+    <title>My Project</title>
+  </head>
+  <body class="project" onload="welcome()">
+
+    <section id="Part">
+      <!-- Bootstrap navigation bar -->
+      <nav id="navbar_top" class="navbar navbar-expand-lg navbar-transparent fixed-top" style="background-image: url('images/backgroundd.jpg')">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Adewale" aria-controls="Adewale" aria-expanded="false" aria-label="navigation-index">
+          <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+        </button>
+        <div class="translate">
+            <a class="navbar-brand" href="https://perfectdevelopment.000webhostapp.com/" data-toggle="tooltip" title="Designed by Perfect">perfDev</a>
+        </div>
+        <div class="collapse navbar-collapse" id="Adewale" data-color="orange">
+          <ul class=" nav navbar-nav ml-auto">
+
+          <!-- Dropdowns -->
+      <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle"  data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><i class="far fa-copy"></i> Components</a>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#"><i class="fab fa-affiliatetheme"></i> All Components</a>
+      <a class="dropdown-item" href="#"><i class="fas fa-folder-open"></i> Documentation</a>
+    </div>
+    </li>
+    <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><i class="far fa-file-alt"></i> Sections</a>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#"><i class="fas fa-project-diagram"></i> Projects</a>
+      <a class="dropdown-item" href="#"><i class="fas fa-phone-volume"></i> Contact Us</a>
+      <a class="dropdown-item" href="https://perfectdevelopment.000webhostapp.com/login.html"><i class="fas fa-sign-in-alt"></i> Login</a>
+      <a class="dropdown-item" href="https://perfectdevelopment.000webhostapp.com/sign-up.html"><i class="fas fa-user"></i> Create Account</a>
+    </div>
+    </li>
+    <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" href="#"><i class="fas fa-image"></i> Examples</a>
+    <div class="dropdown-menu">
+    <a class="dropdown-item" href="#"><i class="fas fa-shipping-fast"></i> Login Page</a>
+    <a class="dropdown-item" href="#"><i class="fas fa-money-check-alt"></i> Pricing</a>
+    <a class="dropdown-item" href="#"><i class="fab fa-audible"></i> Template</a>
+    </div>
+    </li>
+    </ul>
+    </nav>
+    <!--Nav end-->
+
+    <div class="wrapper">
+    <div class="page-header page-header-small clear-filter" filter-color="orange">
+      <div class="page-header-image" data-parallax="true"">
+    </div>
+    <div class="content-center">
+    <div class="row">
+      <div class="col-md-8 ml-auto mr-auto"><br><br><br>
+        <h1 class="title">perfDev</h1><br>
+        <h4>Meet the amazing team behind this project and find out more about how we work.</h4>
+      </div>
+    </div>
+    </div>
+    </div><br><br><br><br><br><br>
+    </section>
+    <!-- about us ends -->
+
+    <section id="use">
+    <div class="row">
+      <div class="col-md-8 mr-auto ml-auto">
+        <h2 class="tit">Simpler. Smarter. Faster.</h2>
+        <h4 class="descriptiona">The CloudCheckr Cloud Management Platform (CMP) provides full visibility and control to reduce costs, improve cybersecurity posture, and automate critical tasks.</h4>
+      </div>
+    </div>
+    <br><br><br>
+    <div class="row">
+    <div class="feature-box col-md-4">
+      <div class="used used-hover">
+        <div class="globe globe-glow globe-round">
+            <i class="icon fas fa-globe"></i>
+        </div>
+        <h4 class="comp-title">Asset Management</h4>
+        <p class="description">Cross-account dashboards provide sophisticated reporting for enterprise.</p>
+      </div>
+    </div>
+    <div class="feature-box col-md-4">
+     <div class="used used-hover">
+       <div class="globe bar-glow globe-round">
+         <i class="icons far fa-chart-bar"></i>
+       </div>
+        <h4 class="comp-title">Resource Utilization</h4>
+        <p class="description">CloudCheckr provides summary and detailed usage statistics for resources.</p>
+      </div>
+    </div>
+    <div class="feature-box col-md-4">
+     <div class="used used-hover">
+       <div class="globe clock-glow globe-round">
+          <i class="iconss far fa-clock"></i>
+       </div>
+          <h4 class="comp-title">Self-Healing</h4>
+          <p class="description">CloudCheckr enables users to save money, time, and effort.</p>
+      </div>
+    </div>
+    <div class="line-break line-primary"></div>
+    </section>
+    <!-- Features ends-->
+
+
+    <section id="adv">
+    <div class="work">
+      <div class="container">
+          <div class="row">
+          <div class="col-md-8 ml-auto mr-auto text-center">
+            <h2 class="title">We have many advantages</h2>
+            <h4 class="descriptiona">
+              This is the paragraph where you can write more details about your projects. Keep you user engaged by providing meaningful information.
+            </h4>
+      <div class="adv-space"></div>
+              </div>
+          </div>
+    <div class="row">
+    <div class="col-md-5 ml-auto">
+    <div class="card card-cent card-bad card-bad-set" style="background-image: url('images/social.jpg')">
+    <div class="card-body">
+      <h2 class="card-title">Social Analytics</h2>
+      <p class="card-description">
+        Insight to help you create, connect, and convert. Understand Your Audience's Interests, Influence, Interactions, and Intent. Discover emerging topics and influencers to reach new audiences.
+      </p>
+      <span class="badge badge-pill badge-light">Analytics</span>
+
+      </div>
+      </div>
+    </div>
+      <div class="col-md-5 mr-auto">
+      <div class="used used-horizontal">
+        <div class="globe globe-danger">
+        <i class="corn far fa-comment"></i>
+      </div>
+        <div class="descriptions">
+          <h4 class="comp-title">Listen to Social Conversations</h4>
+          <p class="description">
+            Gain access to the demographics, psychographics, and location of unique people who talk about your brand.
+          </p>
+        </div>
+          </div>
+            <div class="used used-horizontal">
+                <div class="globe globe-danger">
+                <i class="corn fas fa-pizza-slice"></i>
+                  </div>
+              <div class="description">
+                <h4 class="comp-title">Performance Analyze</h4>
+                <p class="description">
+                  Unify data from Facebook, Instagram, Twitter, LinkedIn, and Youtube to gain rich insights from easy-to-use reports.
+                </p>
+              </div>
+            </div>
+          <div class="used used-horizontal">
+            <div class="globe globe-danger">
+                <i class="corn fas fa-chalkboard-teacher"></i>
+            </div>
+            <div class="descriptions">
+              <h4 class="comp-title">Social Conversions</h4>
+              <p class="description">
+                Track actions taken on your website that originated from social, and understand the impact on your bottom line.
+              </p>
+              </div>
+            </div>
+                </div>
+            </div>
+              <hr>
+    <div class="row">
+    <div class="col-md-5 ml-auto mt-5">
+      <div class="used used-horizontal">
+      <div class="globe globe-warning">
+        <i class="icoon far fa-user"></i>
+      </div>
+      <div class="description">
+        <h4 class="comp-title">Work With Any Team</h4>
+        <p class="description">
+          Whether it’s for work or even the next family vacation, Trello helps your team.
+        </p>
+      </div>
+      </div>
+      <div class="used used-horizontal">
+      <div class="globe globe-warning">
+        <i class="icoon fas fa-signal"></i>
+      </div>
+        <div class="description">
+        <h4 class="comp-title">A Productivity Platform</h4>
+        <p class="description">
+          Integrate the apps your team already uses directly into your workflow.
+        </p>
+        </div>
+      </div>
+      <div class="used used-horizontal">
+      <div class="globe globe-warning">
+        <i class="icoon fas fa-sync-alt"></i>
+          </div>
+        <div class="description">
+          <h4 class="comp-title">Always In Sync</h4>
+          <p class="description">
+            No matter where you are, Trello stays in sync across all of your devices.
+          </p>
+        </div>
+        </div>
+      </div>
+        <div class="col-md-5 mr-auto">
+        <div class="card card-bad card-bad-set card-cent" style="background-image: url('images/work.jpg')">
+        <div class="card-body">
+            <h2 class="card-title">Trello lets you work.</h2>
+            <p class="card-description text-white">
+              Trello’s boards, lists, and cards enable you to organize and prioritize your projects in a fun, flexible and rewarding way.
+            </p>
+            <span class="badge badge-pill badge-light">Trello</span>
+          </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!--Another section ends-->
+    <section id="Workers">
+      <div class="teams">
+        <div class="container">
+        <div class="row">
+          <div class="col-md-8 ml-auto mr-auto text-center">
+            <h2 class="title">We are nerd rockstars</h2>
+            <h4 class="descriptionss">
+              This is the paragraph where you can write more details about your team. Keep you user engaged by providing meaningful information.
+            </h4>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xl-6 col-lg-7 ml-auto mr-auto">
+          <div class="card card-profile card-plain">
+          <div class="row">
+          <div class="col-md-5">
+          <div class="card-image">
+          <a href="#">
+            <img class="img img-raised rounded" src="images/olivia.jpg">
+          </a>
+          </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card-body">
+            <h4 class="card-title">Ella Evelyn</h4>
+            <h6 class="category">Air Crew Member</h6>
+            <p class="card-description">
+              Think in the morning. Act in the noon. Eat in the evening. Sleep in the night......
+            </p>
+          <div class="card-footer">
+            <a href="#pablo" class="btn btn-icon btn-neutral btn-twitter"><i class="fa fa-twitter"></i></a>
+            <a href="#pablo" class="btn btn-icon btn-neutral btn-facebook"><i class="fa fa-facebook-square"></i></a>
+            <a href="#pablo" class="btn btn-icon btn-neutral btn-google"><i class="fa fa-google"></i></a>
+          </div>
+        </div>
+        </div>
+        </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-xl-6 col-lg-7 ml-auto mr-auto">
+        <div class="card card-profile card-plain">
+          <div class="row">
+          <div class="col-md-5">
+          <div class="card-image">
+            <a href="#">
+              <img class="img img-raised rounded" src="images/emily.jpg" />
+            </a>
+          </div>
+      </div>
+        <div class="col-md-6">
+          <div class="card-body">
+            <h4 class="card-title">Mila Skylar</h4>
+            <h6 class="category">Architect</h6>
+            <p class="card-description">
+              Love cures people - both the ones who give it and the ones who receive it...
+            </p>
+          <div class="card-footer">
+            <a href="#" class="btn btn-icon btn-neutral btn-linkedin"><i class="fa fa-linkedin"></i></a>
+            <a href="#" class="btn btn-icon btn-neutral btn-facebook"><i class="fa fa-facebook-square"></i></a>
+            <a href="#" class="btn btn-icon btn-neutral btn-dribbble"><i class="fa fa-dribbble"></i></a>
+            <a href="#" class="btn btn-icon btn-neutral btn-google"><i class="fa fa-google"></i></a>
+          </div>
+          </div>
+        </div>
+      </div>
+        </div>
+      </div>
+      <div class="col-xl-6 col-lg-7 ml-auto mr-auto">
+        <div class="card card-profile card-plain">
+        <div class="row">
+          <div class="col-md-5">
+          <div class="card-image">
+            <a href="#">
+              <img class="img img-raised rounded" src="images/james.jpg">
+            </a>
+          </div>
+          </div>
+      <div class="col-md-7">
+      <div class="card-body">
+        <h4 class="card-title">Daniel Carter</h4>
+        <h6 class="category">Aviation Inspector</h6>
+        <p class="card-description">
+          Keep your face always toward the sunshine - and shadows will fall behind you...
+        </p>
+      <div class="card-footer">
+        <a href="#" class="btn btn-icon btn-neutral btn-youtube"><i class="fa fa-youtube-play"></i></a>
+        <a href="#" class="btn btn-icon btn-neutral btn-twitter"><i class="fa fa-twitter"></i></a>
+        <a href="#" class="btn btn-icon btn-neutral btn-instagram"><i class="fa fa-instagram"></i></a>
+      </div>
+      </div>
+    </div>
+    </div>
+    </div>
+    </div>
+      <div class="col-xl-6 col-lg-7 ml-auto mr-auto">
+      <div class="card card-profile card-plain">
+      <div class="row">
+      <div class="col-md-5">
+      <div class="card-image">
+        <a href="#">
+          <img class="img img-raised rounded" src="images/michael.jpg">
+        </a>
+      </div>
+      </div>
+    <div class="col-md-7">
+    <div class="card-body">
+      <h4 class="card-title">Dylan Wyatt</h4>
+      <h6 class="category">Conservation Scientist</h6>
+      <p class="card-description">
+        There is only one corner of the universe you can be certain of improving, and that's your own self...
+      </p>
+  <div class="card-footer">
+    <a href="#" class="btn btn-icon btn-neutral btn-linkedin"><i class="fa fa-linkedin"></i></a>
+    <a href="#" class="btn btn-icon btn-neutral btn-facebook"><i class="fa fa-facebook-square"></i></a>
+    <a href="#" class="btn btn-icon btn-neutral btn-google"><i class="fa fa-google"></i></a>
+  </div>
+  </div>
+    </div>
+  </div>
+  </div>
+    </div>
+    <!-- Section Office -->
+    <section class="office">
+      <div class="container">
+          <div class="row text-center">
+              <div class="col-md-8 ml-auto mr-auto">
+                  <h2 class="title">Our office is our second home</h2>
+                  <h4 class="description">Here are some pictures from our office. You can see the place looks like a palace and is fully equiped with everything you need to get the job done.</h4>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-md-4">
+                  <img class="rounded img-raised" alt="Raised Image" src="images/bg27.jpg">
+              </div>
+              <div class="col-md-4">
+                  <img class="rounded img-raised" alt="Raised Image" src="images/bg24.jpg">
+              </div>
+              <div class="col-md-4">
+                  <img class="rounded img-raised" alt="Raised Image" src="images/bg28.jpg">
+              </div>
+              <div class="col-md-6">
+                  <img class="rounded img-raised" alt="Raised Image" src="images/project6.jpg">
+              </div>
+              <div class="col-md-6">
+                  <img class="rounded img-raised" alt="Raised Image" src="images/project14.jpg">
+              </div>
+
+          </div>
+      </div>
+  </div>
+    </section>
+    <!-- section office ends -->
+    <div class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 mr-auto ml-auto">
+                    <h2 class="text-center title">Want to work with us?</h2>
+                    <h4 class="text-center description">Divide details about your product or agency work into parts. Write a few lines about each one and contact us about any further collaboration. We will get back to you in a couple of hours.</h4>
+                    <form class="contact-form" action="mailto:perfectadewale31@gmail.com" method="post" enctype="text/plain">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <label>First name</label>
+                                <div class="input-group">
+                                  <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="far fa-user-circle"></i></span>
+                                  </div>
+                                  <input type="text" class="form-control" placeholder="First Name...">
+                                </div>
+                            </div>
+    <div class="col-md-4">
+    <label>Your email</label>
+    <div class="input-group">
+      <div class="input-group-prepend">
+        <span class="input-group-text"><i class=" far fa-envelope"></i></span>
+      </div>
+        <input type="text" class="form-control" placeholder="Email Name...">
+    </div>
+    </div>
+    <div class="col-md-4">
+    <div class="form-group">
+      <label class="control-label">Speciality</label><br>
+        <select class="selectpicker" data-style="btn btn-secondary btn-lg">
+          <option>I'm a Developer</option>
+          <option>I'm a Designer</option>
+          <option>I'm a Hero</option>
+        </select>
+    </div>
+    </div>
+    </div>
+      <div class="row">
+      <div class="col-md-4 ml-auto mr-auto text-center">
+        <button class="btn btn-round mt-4 btn-lg">Let's talk</button>
+      </div>
+      </div>
+  </form>
+    </div>
+    </div>
+      </div>
+    </div>
+    <!-- Footer here -->
+    <footer class="footer">
+    <div class="container">
+    <nav>
+      <ul>
+        <li>
+          <a class="ade" href="#">perfDev</a>
+        </li>
+        <li>
+          <a class="ade" href="#">About Us</a>
+        </li>
+        <li>
+          <a class="ade" href="#">Blog</a>
+        </li>
+        <li>
+        <a class="ade" href="#">License</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- Copyright -->
+  <div class="copyright">
+    &copy; <script>document.write(new Date().getFullYear())</script>,
+    Designed by <a class="ade" href="https://perfectdevelopment.000webhostapp.com/other.html">perfDev</a>.
+    Coded by <a class="ade" href="https://perfectdevelopment.000webhostapp.com/">Perfect</a>.
+  </div>
+    </div>
+  </footer>
+  </body>
+</html>
