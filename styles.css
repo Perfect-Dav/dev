@@ -1,0 +1,45 @@
+body{
+  background-color:#EAF6F6;
+}
+h1{
+  color:#66BFBF;
+  font-family:sans-serif;
+  font-size:40px;
+  font-stretch: condensed;
+}
+.topic{
+  color:#66BFBF;
+  font-family:cursive;
+}
+.about{
+  color:#66BFBF;
+  font-family:verdana;
+}
+.skill{
+  color:#66BFBF;
+  font-family:Arial;
+  font-size-adjust: auto;
+  font-stretch: semi-expanded;
+  font-display: fallback;
+}
+.hobbies{
+  color:#66BFBF;
+}
+img{
+  padding-left:2px;
+  height:96px;
+  width:97px;
+  padding-right:2px;
+  padding-top:2px;
+  border-color: inherit;
+  border-radius:200px;
+  background-origin: border-box;
+}
+hr{
+  border-color:grey;
+  border-width:5px;
+  border-top-style:none;
+  border-style:dotted none none;
+  border-width:5px;
+  width:5%;
+}

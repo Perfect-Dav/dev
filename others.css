@@ -1,0 +1,106 @@
+/* Title section */
+
+#title{
+  background-color:#87CEFA;
+  color:#fff;
+}
+h1{
+  font-family: 'Lusitana', serif;
+  line-height:1.5;
+  size:2rem;
+}
+p{
+  font-family: 'Merienda', cursive;
+  color:#8f8f8f;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size:3rem;
+  line-height:1.5;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+}
+.container-fluid{
+padding:3% 15%;
+}
+.pman{
+  height:400px;
+  width:500px;
+  background-color:blue;
+}
+.app{
+  font-family: 'Merienda', cursive;
+  padding:20px;
+  text-transform: capitalize;
+  font-size:2rem;
+}
+/* navigation bar*/
+
+.navbar{
+  padding-bottom:2.5rem;
+  background-color:#87CEFA;
+}
+.navbar-brand{
+  font-family: 'Source Code Pro', monospace;
+  font-size:1.5rem;
+  font-weight:bold;
+  color:#fff;
+}
+.nav-link{
+  color:#fff;
+}
+ol{
+  color:grey;
+}
+.nav-link{
+  padding:0 18px;
+}
+#features{
+  padding:7% 15%;
+}
+.feature-box{
+  text-align:center;
+  padding:5%;
+}
+.icon{
+  color:#87CEFA;
+  margin-bottom:1rem;
+}
+.icon:hover{
+  color:lightblue;
+}
+#testimonials{
+  text-align:center;
+  background-color:#87CEFA;
+  color:#fff;
+}
+.carousel-item{
+  padding:7% 15%;
+}
+.video{
+  width:60px;
+  border-radius:100%;
+  margin:20px;
+}
+.mat{
+  width:60px;
+  border-radius:100%;
+  margin:20px;
+}
+.chat{
+  width:60px;
+  border-radius:100%;
+  margin:20px;
+}
+#pricing{
+  padding:100px;
+  text-align:center;
+}
+.pricing-colomn{
+  padding:3% 2%;
+}
+#footer{
+  text-align:center;
+  margin:20px 10px;
+}
