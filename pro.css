@@ -1286,12 +1286,12 @@ em{
     font-weight: 600;
 }
 .latest-post-img{
-  padding-right: 35px;
-  margin: 15px;
+  padding-right: 15px;
+  margin: -17px;
 }
 .img-responsives{
   height: 290px;
-  width: 289px;
+  width: 350px;
   padding: 20px;
 }
 .latest-post .post-title a {
