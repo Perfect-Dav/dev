@@ -1290,9 +1290,9 @@ em{
   margin: 15px;
 }
 .img-responsives{
-  height: 290px;
-  padding: 20px;
-  margin-right: 20px;
+   height: 290px;
+   width: 2px;
+   padding: 20px;
 }
 .latest-post .post-title a {
     color: #303030;
