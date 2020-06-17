@@ -1027,9 +1027,41 @@ img.service-center-img.img-responsive {
 .project-area.nav{
   list-style: none;
   margin: 0;
-  padding: 0;}
-.navigation{
-  border: 2px solid #ffb600;
+  padding: 0;
+}
+.navigation {
+    display: inline-block;
+    margin: 20px 0 50px;
+    width: 100%;
+}
+
+.navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-bottom: 3px solid #ffb600;
+}
+
+.navigation ul li {
+    display: inline-block;
+    line-height: 40px;
+}
+
+.navigation ul li a {
+    color: #212121;
+    font-size: 14px;
+    padding: 12px 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.navigation ul a.active {
+    color: #212121;
+    background: #ffb600;
 }
 li.link{
   float: left;
