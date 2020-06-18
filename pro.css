@@ -1415,6 +1415,9 @@ em{
 .footer-social ul li a i:hover {
   color: #fff;
 }
+.footer-widget{
+   padding-right: 70px;
+}
 .footer-widget ul.list-arrow li {
   border-bottom: 1px solid rgba(255, 255, 255, .07);
   padding: 8px 0;
