@@ -731,6 +731,18 @@ ul.head-box li{
   background-color: #ffb600;
   padding: 30px;
 }
+@media (max-width : 375px) {
+  #action{
+    background-color: #ffb600;
+    margin-top: -50px;
+    padding: 30px;
+    position: relative;
+    text-align: center;
+    margin-left: 39px;
+    margin-right: 120px;
+    width: 300px;
+  }
+}
 @media (max-width : 320px) {
 .logo{
 	text-align: center;
@@ -768,6 +780,16 @@ ul.head-box li{
 }
 .carousel-content.text-center.hello{
   text-align: left;
+}
+#action{
+  background-color: #ffb600;
+  margin-top: -50px;
+  padding: 30px;
+  position: relative;
+  text-align: center;
+  margin-left: 41px;
+  margin-right: 120px;
+  width: 240px;
 }
 .panel-default>.panel-heading {
     background: none;
