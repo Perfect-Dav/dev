@@ -343,6 +343,10 @@ input {
 	text-align: center;
 	padding-left: 15px;
 }
+	.carousel-content.text-center.hello{
+  text-align: center;
+  margin-left: 200px;
+}
 .head-image{
 		padding: 50px 0;
 }
@@ -381,7 +385,23 @@ ul.head-box li{
 }
   }
   @media (max-width : 479px) {
-
+    .carousel-content.text-right.hello{
+      text-align: right;
+      right: 45px;
+    }
+    .carousel-content.text-center.hello{
+      text-align: center;
+      right: 190px;
+      left: -50px;
+    }
+  .latest-post-img{
+      margin-right: -40px;
+    }
+    .img-responsives{
+      height: 290px;
+      width: 2px;
+      padding: 20px;
+    }
   	/* Newsletter */
 
   	.newsletter-form input{
@@ -391,9 +411,19 @@ ul.head-box li{
   	#back-to-top.affix {
       	bottom: 20px;
   	}
-
-
   }
+@media (max-width : 2560px) {
+  .carousel-content.text-center.hello{
+    text-align: center;
+    right: 300px;
+  }
+}
+@media (max-width : 1024px) {
+  .carousel-content.text-center.hello{
+    text-align: center;
+    right: 300px;
+  }
+}
   @media (min-width: 992px) and (max-width:1199px){
 
 	/* Projects */
@@ -731,7 +761,42 @@ ul.head-box li{
   background-color: #ffb600;
   padding: 30px;
 }
+@media (max-width : 575.98px) {
+  .carousel-content.text-center.hello{
+    text-align: center;
+    left: 90px;
+  }
+  .carousel-content.text-right.hello{
+    text-align: right;
+    right: 49px;
+  }
+}
+@media (max-width : 768px) {
+  .carousel-content.text-center.hello{
+    text-align: center;
+    left: -6px;
+  }
+  .carousel-content.text-right.hello{
+    text-align: right;
+    right: 40px;
+  }
+}
+@media (max-width : 425px) {
+  .carousel-content.text-center.hello{
+    text-align: center;
+    right: 20px;
+    left: -170px;
+  }
+}
 @media (max-width : 375px) {
+.carousel-content.text-center.hello{
+    text-align: center;
+    right: 70px;
+  }
+  .carousel-content.text-right.hello{
+    text-align: right;
+    right: 40px;
+  }
   #action{
     background-color: #ffb600;
     margin-top: -50px;
@@ -779,7 +844,8 @@ ul.head-box li{
   height: 700px;
 }
 .carousel-content.text-center.hello{
-  text-align: left;
+  text-align: center;
+  right: 90px;
 }
 #action{
   background-color: #ffb600;
@@ -859,6 +925,16 @@ h4.panel-title a:before {
 h4.panel-title a.collapsed:before {
     content: "\f107";
 }
+.latest-post-img{
+  margin-right: -50px;
+}
+img.img-responsives{
+  height: 290px;
+  width: 300px;
+  padding: 20px;
+}
+.latest-post{
+  margin-right: -12px;
   }
 
 /** Panels **/
