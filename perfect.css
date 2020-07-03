@@ -620,4 +620,5 @@ a.back-to-top:hover{
   box-shadow: none;
   border: none;
   outline: none;
+  transition: 0.5s;
 }
