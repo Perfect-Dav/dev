@@ -609,6 +609,7 @@ a.back-to-top {
     bottom: 25px;
     right: 25px;
     display: none;
+    transition: 1s;
 }
 i.icon{
   color: #d41455;
