@@ -7,10 +7,10 @@
         $subject = trim($_POST["subject"]);
         $name = str_replace(array("\r","\n"),array(" "," ") , strip_tags(trim($_POST["name"])));
         $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
-        $phone = trim($_POST["phone"]);
         $message = trim($_POST["message"]);
+        $alert = trim($_POST["alert"]);
 
-        if ( empty($name) OR !filter_var($email, FILTER_VALIDATE_EMAIL) OR empty($phone) OR empty($subject) OR empty($message)) {
+        if ( empty($name) OR !filter_var($email, FILTER_VALIDATE_EMAIL) OR empty($subject) OR empty($message)) {
             http_response_code(400);
             echo "Please complete the form and try again.";
             exit;
@@ -18,7 +18,6 @@
 
         $content = "Name: $name\n";
         $content .= "Email: $email\n\n";
-        $content .= "Phone: $phone\n";
         $content .= "Message:\n$message\n";
 
         $headers = "From: $name <$email>";
