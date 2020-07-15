@@ -522,6 +522,7 @@ div.footer-widget{
   -moz-transition: 400ms;
   -o-transition: 400ms;
   transition: 400ms;
+  text-decoration: none;
 }
 .footer-social ul li a i:hover {
   color: #fff;
