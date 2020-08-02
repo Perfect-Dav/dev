@@ -603,7 +603,31 @@
     </footer>
     <di id="preloader"></dv>
     <!-- scripts -->
+	<!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v7.0'
+          });
+        };
 
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_GB/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
+      <!-- Your Chat Plugin code -->
+      <div class="fb-customerchat"
+        attribution=setup_tool
+        page_id="106511331165053"
+  logged_in_greeting="Hi! Welcome to PerfDev. How can we help you?"
+  logged_out_greeting="Hi! Welcome to PerfDev. How can we help you?">
+      </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
     <script src="popper.js" charset="utf-8"></script>
     <script src="bootstrap.js" charset="utf-8"></script>
