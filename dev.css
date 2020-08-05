@@ -28,6 +28,10 @@ ul.lists{
 a.nav-link{
   color: #ebedef;
   font-family: 'Roboto Slab', serif;
+  transition: 0.5s;
+}
+a.nav-link:hover{
+  color: #000;
 }
 span.nav-text{
   color: #ebedef;
