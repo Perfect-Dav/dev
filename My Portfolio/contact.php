@@ -14,6 +14,4 @@ if(!empty($_POST["send"])) {
 }
 require_once "contact-view.php";
 ?>
-Card number: 5061050264552454603
-Expire: 08/21
-CVV: 160
+
